@@ -1,0 +1,15 @@
+fastlio_nav_adapter:
+  ros__parameters:
+    input_odom_topic: /fastlio2/lio_odom
+    output_odom_topic: /my_nav/odom
+
+    odom_frame: fastlio_odom
+    imu_frame: fastlio_body
+    base_frame: my_nav_base_link
+
+    imu_to_base_translation: [0.009, -0.02329, 0.65732]
+
+    imu_to_base_rotation:
+      [0.0, 1.0, 0.0,
+       1.0, 0.0, 0.0,
+       0.0, 0.0, -1.0]

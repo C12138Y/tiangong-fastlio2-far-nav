@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.log
+*.db3
+*.mcap
+*.bag
+*.tar
+*.tar.gz
+*.zip
+.pytest_cache/
+.coverage
+build/
+install/
+log/
+robot_source_snapshots/
+diagnostics/
+

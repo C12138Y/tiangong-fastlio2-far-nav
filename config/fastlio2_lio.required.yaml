@@ -1,0 +1,11 @@
+# Merge these keys into the upstream FAST-LIO2 lio.yaml.
+# This is a fragment, not a complete replacement configuration.
+imu_topic: /livox/imu
+lidar_topic: /fastlio2/livox_custom
+body_frame: fastlio_body
+world_frame: fastlio_odom
+r_il: [1.0, 0.0, 0.0,
+       0.0, 1.0, 0.0,
+       0.0, 0.0, 1.0]
+t_il: [-0.011, -0.02329, 0.04412]
+

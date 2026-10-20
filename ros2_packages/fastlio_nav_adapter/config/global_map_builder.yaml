@@ -1,0 +1,24 @@
+/my_nav/global_map_builder:
+  ros__parameters:
+    use_sim_time: true
+
+    cloud_topic: /fastlio2/world_cloud
+    odom_topic: /my_nav/odom
+    map_topic: /my_nav/global_map
+    map_frame: fastlio_odom
+
+    resolution: 0.10
+    min_range: 0.30
+    max_range: 15.0
+
+    min_obstacle_height: 0.08
+    max_obstacle_height: 1.80
+
+    map_margin: 1.0
+
+    scan_stride: 2
+    point_stride: 2
+
+    hit_increment: 4
+    miss_decrement: 1
+    occupied_threshold: 2
